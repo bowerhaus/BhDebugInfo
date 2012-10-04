@@ -59,7 +59,7 @@ end
  function BhDebugInfo:init()
 	self.count=0
 	self.timer=os.timer()
-	self.displayText=TextField.new(TTFont.new("Fonts/Tahoma.ttf", 16))
+	self.displayText=TextField.new(TTFont.new("Fonts/Tahoma.ttf", 24))
 	self:addChild(self.displayText)
 
 	self:addEventListener(Event.ADDED_TO_STAGE, self.onAddedToStage, self)
